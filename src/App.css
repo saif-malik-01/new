@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding:0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #FFFFFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.active-link{
+  color:#D0071F !important;
+  border-right: solid 4px #D0071F;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.link{
+  color:#545658;
+  margin-left:35%
 }
 
-.App-link {
-  color: #61dafb;
+.link:hover{
+  cursor:pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link-icon{
+  font-size:18px
+}
+
+.link-text{
+  font-size:12px;
+  margin-left:5px;
+}
+
+
+.section-title{
+  font-size: 12px;
+  color: #ACABB3;
+  margin: 38px 0px 18px 35%;
+}
+
+   
+.nav-col{
+  border-right:solid 1px #ACABB33D;
+  padding-right:0 !important;
+  padding-left:0 !important;
+}
+
+.nav-logo{
+  font-size: 28px;
+  color: #0c0a0a;
+  margin: 10px 0 -20px 32%;
 }

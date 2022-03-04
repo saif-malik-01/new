@@ -1,0 +1,53 @@
+.card-cont__img{
+	background-image:url('../eternals.png');
+}
+
+.rating{
+	color:#007cff;
+}
+
+.card-cont__tite{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+.card-cont__info-cont{
+	height: 90px;
+	border-radius: 0px 0px 5px 5px;
+	background-color: white;
+}
+
+.card-cont__img{
+	height: 300px;
+	background-size: 100% 100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.card-cont__value{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	font-size: 12px;
+}
+
+
+.card-cont__key{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    font-size: 10px;
+    color: gray;
+}
+
+.card-cont{
+	width: 250px;
+	transition:550ms;
+}
+
+.card-cont:hover{
+	box-shadow:5px 5px 20px rgba(0,0,0,0.5);
+}
